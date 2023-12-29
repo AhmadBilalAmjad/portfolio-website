@@ -18,7 +18,7 @@ export default function Intro() {
     <section
       ref={ref}
       id="home"
-      className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
+      className="mb-28 max-w-[60rem] text-center sm:mb-0 scroll-mt-[100rem]"
     >
       <div className="flex items-center justify-center">
         <div className="relative">
@@ -62,11 +62,11 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hey, I'm Ahmad Bilal Amjad,</span> a{" "}
-        <span className="font-bold">front-end focused (full-stack developer)</span> with{" "}
-        <span className="font-bold">5 years</span> of experience. I enjoy
-        building <span className="italic">sites & apps</span>. My expertise lies in{" "}
-        <span className="underline font-bold">React (Next.js)</span>.
+        Hey, <span className="font-bold">I'm Ahmad Bilal Amjad,</span> a{" "}
+        <span className="font-bold">seasoned full-stack developer</span> with{" "}
+        <span className="font-bold">5 years</span> in crafting top-notch sites and apps.
+        My focus is <span className="font-bold">React (Next JS)</span>.
+        <div className="underline italic mt-3">Let's elevate your digital presence!</div>
       </motion.h1>
 
       <motion.div
@@ -79,7 +79,7 @@ export default function Intro() {
       >
         <Link
           href="#contact"
-          className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:mr-110 hover:bg-gray-950 active:scale-105 transition dark:text-white/80"
+          className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition dark:text-white/80"
           onClick={() => {
             setActiveSection("Contact");
             setTimeOfLastClick(Date.now());
