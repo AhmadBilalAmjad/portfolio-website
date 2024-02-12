@@ -2,9 +2,11 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import tecmeImg from "@/public/tecme_short.png";
+import visiomateImg from "@/public/visiomate_short.png";
+import eventrayImg from "@/public/eventray_short.png";
+import viztosImg from "@/public/viztos_short.png";
+import cybervisionImg from "@/public/cybervision_short.png";
 
 export const links = [
   {
@@ -62,26 +64,41 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Tecme",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      ["It is a website that offers IT management and technology solutions for small and medium-sized businesses (SMBs)."],
+    tags: ["React js", "Redux", "Ant Design", "Firebase", "Bootstrap", "Algolia"],
+    imageUrl: tecmeImg || "https://i.ibb.co/kBs9cWj/React-App.png",
   },
   {
-    title: "rmtDev",
+    title: "Cybervision",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      ["It is a company that offers comprehensive cybersecurity management services, including consulting, governance, risk compliance, security products."],
+    tags: ["React Js", "Next js", "Sass", "Axios", "Node Mailer"],
+    imageUrl: cybervisionImg,
   },
   {
-    title: "Word Analytics",
+    title: "Visiomate",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      ["It is a company that offers intelligent business intelligence (BI) solutions, including end-to-end data management and analytics."],
+    tags: ["React js", "Gatsby js", "Ant Design", "GraphQL"],
+    imageUrl: visiomateImg,
   },
+  {
+    title: "Viztos",
+    description:
+      ["Viztos integrates POS and ERP features, addressing issues like multiple sessions, web-based systems, and advanced UI design."],
+    tags: ["React js", "Redux Thunk", "Ant Design", "Indexed DB"],
+   
+    imageUrl: viztosImg,
+  },
+  {
+    title: "EventRay",
+    description:
+      ["It is a website offering online event registration and customizable real-time reporting services, enabling users to efficiently implement events."],
+    tags: ["React js", "Redux", "Redux Thunk", "Normalize CSS"],
+    imageUrl: eventrayImg,
+  }
 ] as const;
 
 export const skillsData = [
