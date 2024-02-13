@@ -83,7 +83,7 @@ export const projectsData = [
     description:
       "It is a website that offers IT management and technology solutions for small and medium-sized businesses (SMBs).",
     tags: ["React js", "Redux", "Ant Design", "Firebase", "Bootstrap", "Algolia"],
-    imageUrl: tecmeImg || "https://i.ibb.co/kBs9cWj/React-App.png",
+    imageUrl: tecmeImg,
   },
   {
     title: "Cybervision",
