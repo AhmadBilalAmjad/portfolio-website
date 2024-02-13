@@ -1,4 +1,3 @@
-import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
@@ -37,28 +36,44 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Graduated BSCS",
+    location: "Lahore, PK",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
+      "I graduated in computer science after 4 years, with my final year project focusing on PHP (Laravel).",
+    icon: LuGraduationCap,
+    date: "2018",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Software Engineer",
+    location: "TechClan - Lahore, PK",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "I commenced my career at a software company, initially as an associate software engineer for 6 months, subsequently advancing to a full stack software engineer position.",
+    icon: CgWorkAlt,
+    date: "2019 - 2020",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Software Engineer - Team Lead",
+    location: "Visiomate - Lahore, PK",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "I transitioned to Visiomate, where I served as the Front End Lead, expanding the team from one to six members under my leadership.",
+    icon: CgWorkAlt,
+    date: "2020 - 2022",
+  },
+  {
+    title: "Software Engineering Consultant",
+    location: "Tecme - Remote",
+    description:
+      "After two years at Visiomate, I embraced a remote role with Tecme, a US product company. I spearheaded notable enhancements, slashing initial render times and skyrocketing their GTMetrix score from 40% to 87%. Additionally, I engineered a captivating new landing page to drive conversion rates.",
+    icon: CgWorkAlt,
+    date: "2022 - 2023",
+  },
+  {
+    title: "Freelancer",
+    location: "Remote",
+    description:
+      "I'm currently a freelance developer specializing in React.js, Next.js, and Gatsby.js. Open to exciting full-time opportunities.",
+    icon: CgWorkAlt,
+    date: "2023 - present",
   },
 ] as const;
 
@@ -66,28 +81,28 @@ export const projectsData = [
   {
     title: "Tecme",
     description:
-      ["It is a website that offers IT management and technology solutions for small and medium-sized businesses (SMBs)."],
+      "It is a website that offers IT management and technology solutions for small and medium-sized businesses (SMBs).",
     tags: ["React js", "Redux", "Ant Design", "Firebase", "Bootstrap", "Algolia"],
     imageUrl: tecmeImg || "https://i.ibb.co/kBs9cWj/React-App.png",
   },
   {
     title: "Cybervision",
     description:
-      ["It is a company that offers comprehensive cybersecurity management services, including consulting, governance, risk compliance, security products."],
+      "It is a company that offers comprehensive cybersecurity management services, including consulting, governance, risk compliance, security products.",
     tags: ["React Js", "Next js", "Sass", "Axios", "Node Mailer"],
     imageUrl: cybervisionImg,
   },
   {
     title: "Visiomate",
     description:
-      ["It is a company that offers intelligent business intelligence (BI) solutions, including end-to-end data management and analytics."],
+      "It is a company that offers intelligent business intelligence (BI) solutions, including end-to-end data management and analytics.",
     tags: ["React js", "Gatsby js", "Ant Design", "GraphQL"],
     imageUrl: visiomateImg,
   },
   {
     title: "Viztos",
     description:
-      ["Viztos integrates POS and ERP features, addressing issues like multiple sessions, web-based systems, and advanced UI design."],
+      "Viztos integrates POS and ERP features, addressing issues like multiple sessions, web-based systems, and advanced UI design.",
     tags: ["React js", "Redux Thunk", "Ant Design", "Indexed DB"],
    
     imageUrl: viztosImg,
@@ -95,7 +110,7 @@ export const projectsData = [
   {
     title: "EventRay",
     description:
-      ["It is a website offering online event registration and customizable real-time reporting services, enabling users to efficiently implement events."],
+      "It is a website offering online event registration and customizable real-time reporting services, enabling users to efficiently implement events.",
     tags: ["React js", "Redux", "Redux Thunk", "Normalize CSS"],
     imageUrl: eventrayImg,
   }
