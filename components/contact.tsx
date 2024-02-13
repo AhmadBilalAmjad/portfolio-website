@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import { useState } from "react";
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
@@ -9,6 +9,10 @@ import SubmitBtn from "./submit-btn";
 import toast from "react-hot-toast";
 
 export default function Contact() {
+  const [contactFormData, setContactFormData] = useState<{ senderEmail: string, message: string }>({
+    senderEmail: '',
+    message: ''
+  })
   const { ref } = useSectionInView("Contact");
 
   return (
@@ -49,6 +53,10 @@ export default function Contact() {
             return;
           }
 
+          setContactFormData({
+            senderEmail: '',
+            message: ''
+          })
           toast.success("Email sent successfully!");
         }}
       >
@@ -59,6 +67,8 @@ export default function Contact() {
           required
           maxLength={500}
           placeholder="Your email"
+          value={contactFormData.senderEmail}
+          onChange={(e) => setContactFormData((prev) => ({ ...prev, senderEmail: e.target.value }))}
         />
         <textarea
           className="h-52 my-3 rounded-lg custom-border-black p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
@@ -66,6 +76,8 @@ export default function Contact() {
           placeholder="Your message"
           required
           maxLength={5000}
+          value={contactFormData.message}
+          onChange={(e) => setContactFormData((prev) => ({ ...prev, message: e.target.value }))}
         />
         <SubmitBtn />
       </form>
