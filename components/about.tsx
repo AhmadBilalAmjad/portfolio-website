@@ -26,7 +26,7 @@ export default function About() {
           React JS and Next JS 
         </span>
         {" "}My toolkit extends to include <span className="font-medium">Gatsby.js, Vue.js, Node.js, Express.js and TypeScript.</span>
-        {" "}I have some experience working <span className="font-medium">Python (Django), PHP (Laravel)</span> and both <span className="font-medium">SQL (MySQL, PostgreSQL) </span> and <span className="font-medium">NoSQL (Mongo DB, Redis, Firebase)</span> databases.
+        {" "}I have some experience working with <span className="font-medium">Python (Django), PHP (Laravel)</span> and both <span className="font-medium">SQL (MySQL, PostgreSQL) </span> and <span className="font-medium">NoSQL (Mongo DB, Redis, Firebase)</span> databases.
         I'm a perpetual learner, eagerly embracing emerging technologies.
         Currently, I actively seek a full-time role as a <span className="font-medium">seasoned software engineer</span>, poised to bring innovation and expertise to the forefront of your team.
       </p>

@@ -80,9 +80,10 @@ export const projectsData = [
   {
     title: "Tecme",
     description:
-      "It is a website that offers IT management and technology solutions for small and medium-sized businesses (SMBs).",
+      "It is a webapp that offers IT management and technology solutions for small and medium-sized businesses (SMBs).",
     tags: ["React js", "Redux", "Ant Design", "Firebase", "Bootstrap", "Algolia"],
     imageUrl: tecmeImg,
+    liveUrl: "https://tecme.io/"
   },
   {
     title: "Cybervision",
@@ -90,6 +91,7 @@ export const projectsData = [
       "It is a company that offers comprehensive cybersecurity management services, including consulting, governance, risk compliance, security products.",
     tags: ["React Js", "Next js", "Sass", "Axios", "Node Mailer"],
     imageUrl: cybervisionImg,
+    liveUrl: "https://cybervision.com.sa/"
   },
   {
     title: "Visiomate",
@@ -97,6 +99,15 @@ export const projectsData = [
       "It is a company that offers intelligent business intelligence (BI) solutions, including end-to-end data management and analytics.",
     tags: ["React js", "Gatsby js", "Ant Design", "GraphQL"],
     imageUrl: visiomateImg,
+    liveUrl: "https://www.visiomate.com/"
+  },
+  {
+    title: "EventRay",
+    description:
+      "It is a webapp offering online event registration and customizable real-time reporting services, enabling users to efficiently implement events.",
+    tags: ["React js", "Redux", "Redux Thunk", "Normalize CSS"],
+    imageUrl: eventrayImg,
+    liveUrl: "https://eventray.com/"
   },
   {
     title: "Viztos",
@@ -105,14 +116,8 @@ export const projectsData = [
     tags: ["React js", "Redux Thunk", "Ant Design", "Indexed DB"],
    
     imageUrl: viztosImg,
+    liveUrl: "https://www.visiomate.com/portfolio/products/viztos/"
   },
-  {
-    title: "EventRay",
-    description:
-      "It is a website offering online event registration and customizable real-time reporting services, enabling users to efficiently implement events.",
-    tags: ["React js", "Redux", "Redux Thunk", "Normalize CSS"],
-    imageUrl: eventrayImg,
-  }
 ] as const;
 
 export const skillsData = [
