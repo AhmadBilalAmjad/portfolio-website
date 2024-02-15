@@ -20,7 +20,7 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3 dark:text-white/70">
         In <span className="font-medium">2018</span>, armed with a degree in
-        <span className="font-medium"> Computer Scieince</span>, I embarked on a journey to channel my programming passion.
+        <span className="font-medium"> Computer Science</span>, I embarked on a journey to channel my programming passion.
         The dynamic art of <span className="font-medium">problem-solving</span> truly captivates me, offering both challenge and gratification. Specializing in{" "}
         <span className="font-medium">
           React JS and Next JS 
