@@ -13,7 +13,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Ahmad Bilal Amjad | Personal Portfolio",
-  description: "Ahmad Bilal Amjad is a front-end focused (full-stack developer) with 5 years of experience.",
+  description: "Ahmed,Bilal,AhmedBilal,AhmedBilalAmjad, Ahmed Bilal Amjad, Ahmad,Bilal,AhmadBilal,AhmadBilalAmjad, Ahmad Bilal Amjad, Portfolio, React Portfolio, Software Engineer Portfolio, Ahmad Bilal Amjad is a front-end focused (full-stack developer) with 5 years of experience.",
 };
 
 export default function RootLayout({
