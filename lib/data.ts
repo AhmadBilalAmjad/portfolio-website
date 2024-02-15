@@ -1,5 +1,4 @@
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import tecmeImg from "@/public/tecme_short.png";
 import visiomateImg from "@/public/visiomate_short.png";
