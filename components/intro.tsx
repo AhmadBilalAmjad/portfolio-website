@@ -64,7 +64,7 @@ export default function Intro() {
       >
         Hey, <span className="font-bold">I'm Ahmad Bilal Amjad,</span> a{" "}
         <span className="font-bold">seasoned full-stack developer</span> with{" "}
-        <span className="font-bold">5 years</span> in crafting top-notch sites and apps.
+        <span className="font-bold">5+ years</span> in crafting top-notch sites and apps.
         My focus is <span className="font-bold">React (Next JS)</span>.
         <div className="underline italic mt-3">Let's elevate your digital presence!</div>
       </motion.h1>
@@ -89,14 +89,14 @@ export default function Intro() {
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
-        <a
+        {/* <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer custom-border-black dark:bg-white/10 dark:text-white/80"
           href="/CV.pdf"
           download
         >
           Download CV{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
-        </a>
+        </a> */}
 
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer custom-border-black dark:bg-white/10 dark:text-white/60"
