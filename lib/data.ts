@@ -5,6 +5,7 @@ import visiomateImg from "@/public/visiomate_short.png";
 import eventrayImg from "@/public/eventray_short.png";
 import viztosImg from "@/public/viztos_short.png";
 import cybervisionImg from "@/public/cybervision_short.png";
+import imagecraftifyImg from "@/public/imagecraftify.png";
 
 export const links = [
   {
@@ -86,6 +87,14 @@ export const projectsData = [
     liveUrl: "https://tecme.io/"
   },
   {
+    title: "ImageCraftify",
+    description:
+      "It's a webapp with AI-driven image manipulation capabilities, including Image Restoration, Object Recoloring etc.",
+    tags: ["React js", "Next js", "Shadcn/ui", "Tailwind CSS", "MongoDB", "Clerk", "Stripe"],
+    imageUrl: imagecraftifyImg,
+    liveUrl: "https://www.imagecraftify.com/"
+  },
+  {
     title: "Cybervision",
     description:
       "It is a company that offers comprehensive cybersecurity management services, including consulting, governance, risk compliance, security products.",
@@ -134,7 +143,7 @@ export const skillsData = [
   "Bootstrap",
   "Ant Design",
   "Material UI",
-  // "Shadcn UI",
+  "Shadcn UI",
   "Framer Motion",
   "Recoil",  
   "Redux",  
@@ -156,4 +165,6 @@ export const skillsData = [
   "Mocha",
   "Chai",
   "Git",
+  "Clerk",
+  "Stripe",
 ] as const;

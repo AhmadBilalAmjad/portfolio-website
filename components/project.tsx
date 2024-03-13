@@ -5,6 +5,7 @@ import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import Link from "next/link";
 import { motion, useScroll, useTransform } from "framer-motion";
+import { IoMdEye } from "react-icons/io";
 
 type ProjectProps = (typeof projectsData)[number];
 
@@ -32,7 +33,7 @@ export default function Project({
       }}
       className="group mb-3 sm:mb-8 last:mb-0"
     >
-      <Link href={liveUrl} referrerPolicy="no-referrer" target="_blank" title="Click to view live">
+      <Link href={liveUrl} className="relative group" referrerPolicy="no-referrer" target="_blank" title="Click to view live">
         <section className="bg-gray-100 max-w-[42rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-[20rem] hover:bg-gray-200 transition sm:group-even:pl-8 dark:text-white dark:bg-white/10 dark:hover:bg-white/20">
           <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]">
             <h3 className="text-2xl font-semibold">{title}</h3>
@@ -69,6 +70,9 @@ export default function Project({
         group-even:right-[initial] group-even:-left-40"
           />
         </section>
+        <div className="absolute inset-0 flex items-center justify-center bg-black rounded-lg bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+          <IoMdEye className="h-10 w-10 text-white" />
+        </div>
       </Link>
     </motion.div>
   );
