@@ -36,28 +36,12 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated BSCS",
-    location: "Lahore, PK",
+    title: "Freelancer",
+    location: "Remote",
     description:
-      "I graduated in computer science after 4 years, with my final year project focusing on PHP (Laravel).",
-    icon: LuGraduationCap,
-    date: "2018",
-  },
-  {
-    title: "Software Engineer",
-    location: "TechClan - Lahore, PK",
-    description:
-      "I commenced my career at a software company, initially as an associate software engineer for 6 months, subsequently advancing to a full stack software engineer position.",
+      "As of now, I work as a freelance developer specializing in React.js, Next.js, and Gatsby.js. Open to exciting full-time opportunities.",
     icon: CgWorkAlt,
-    date: "2019 - 2020",
-  },
-  {
-    title: "Software Engineer - Team Lead",
-    location: "Visiomate - Lahore, PK",
-    description:
-      "I transitioned to Visiomate, where I served as the Front End Lead, expanding the team from one to six members under my leadership.",
-    icon: CgWorkAlt,
-    date: "2020 - 2022",
+    date: "2023 - present",
   },
   {
     title: "Software Engineering Consultant",
@@ -68,20 +52,36 @@ export const experiencesData = [
     date: "2022 - 2023",
   },
   {
-    title: "Freelancer",
-    location: "Remote",
+    title: "Software Engineer - Team Lead",
+    location: "Visiomate - Lahore, PK",
     description:
-      "I'm currently a freelance developer specializing in React.js, Next.js, and Gatsby.js. Open to exciting full-time opportunities.",
+      "I transitioned to Visiomate, where I served as the Front End Lead, expanding the team from one to six members under my leadership.",
     icon: CgWorkAlt,
-    date: "2023 - present",
+    date: "2020 - 2022",
   },
+  {
+    title: "Software Engineer",
+    location: "TechClan - Lahore, PK",
+    description:
+      "I commenced my career at a software company, initially as an associate software engineer for 6 months, subsequently advancing to a full stack software engineer position.",
+    icon: CgWorkAlt,
+    date: "2019 - 2020",
+  },
+  {
+    title: "BSCS",
+    location: "Lahore, PK",
+    description:
+      "I graduated with a degree in computer science, with my final year project focusing on PHP (Laravel).",
+    icon: LuGraduationCap,
+    date: "2014 - 2018",
+  }
 ] as const;
 
 export const projectsData = [
   {
     title: "Tecme",
     description:
-      "It is a webapp that offers IT management and technology solutions for small and medium-sized businesses (SMBs).",
+      "It is a web app that offers IT management and technology solutions for small and medium-sized businesses (SMBs).",
     tags: ["React js", "Redux", "Ant Design", "Firebase", "Bootstrap", "Algolia"],
     imageUrl: tecmeImg,
     liveUrl: "https://tecme.io/"
@@ -89,7 +89,7 @@ export const projectsData = [
   {
     title: "ImageCraftify",
     description:
-      "It's a webapp with AI-driven image manipulation capabilities, including Image Restoration, Object Recoloring etc.",
+      "It's a web app with AI-driven image manipulation capabilities, including Image Restoration, Object Recoloring etc.",
     tags: ["React js", "Next js", "Shadcn/ui", "Tailwind CSS", "MongoDB", "Clerk", "Stripe"],
     imageUrl: imagecraftifyImg,
     liveUrl: "https://www.imagecraftify.com/"
@@ -97,7 +97,7 @@ export const projectsData = [
   {
     title: "Cybervision",
     description:
-      "It is a company that offers comprehensive cybersecurity management services, including consulting, governance, risk compliance, security products.",
+      "It is a company that offers comprehensive cybersecurity management services, including consulting, governance, risk compliance, and security products.",
     tags: ["React Js", "Next js", "Sass", "Axios", "Node Mailer"],
     imageUrl: cybervisionImg,
     liveUrl: "https://cybervision.com.sa/"
@@ -113,7 +113,7 @@ export const projectsData = [
   {
     title: "EventRay",
     description:
-      "It is a webapp offering online event registration and customizable real-time reporting services, enabling users to efficiently implement events.",
+      "It is a web app offering online event registration and customizable real-time reporting services, enabling users to efficiently implement events.",
     tags: ["React js", "Redux", "Redux Thunk", "Normalize CSS"],
     imageUrl: eventrayImg,
     liveUrl: "https://eventray.com/"
