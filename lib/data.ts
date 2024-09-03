@@ -36,10 +36,10 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Freelancer",
+    title: "CoderBatch",
     location: "Remote",
     description:
-      "As of now, I work as a freelance developer specializing in React.js, Next.js, and Gatsby.js. Open to exciting full-time opportunities.",
+      "I am currently working as a Principal Software Engineer at CoderBatch, specializing in React.js, Next.js, and Node.js. I am open to exploring exciting full-time opportunities.",
     icon: CgWorkAlt,
     date: "2023 - present",
   },
