@@ -125,7 +125,7 @@ export const projectsData = [
     tags: ["React js", "Redux Thunk", "Ant Design", "Indexed DB"],
    
     imageUrl: viztosImg,
-    liveUrl: "https://www.visiomate.com/portfolio/products/viztos/"
+    liveUrl: "https://www.visiomate.com/caseStudies/products/viztos/"
   },
 ] as const;
 
