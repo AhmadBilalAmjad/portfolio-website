@@ -69,7 +69,7 @@ export const experiencesData = [
   },
   {
     title: "Freelancer",
-    location: "Worldwide",
+    location: "Remote",
     description:
       "Freelancing since 2018, developing quality solutions in JS, TS, PHP, and Python.",
     icon: CgWorkAlt,
