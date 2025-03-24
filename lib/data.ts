@@ -5,7 +5,7 @@ import visiomateImg from "@/public/visiomate_short.png";
 import eventrayImg from "@/public/eventray_short.png";
 import viztosImg from "@/public/viztos_short.png";
 import cybervisionImg from "@/public/cybervision_short.png";
-import imagecraftifyImg from "@/public/imagecraftify.png";
+import imagecraftifyImg from "@/public/imagecraftify_new.png";
 
 export const links = [
   {
@@ -66,6 +66,14 @@ export const experiencesData = [
       "I commenced my career at a software company, initially as an associate software engineer for 6 months, subsequently advancing to a full stack software engineer position.",
     icon: CgWorkAlt,
     date: "2019 - 2020",
+  },
+  {
+    title: "Freelancer",
+    location: "Worldwide",
+    description:
+      "Freelancing since 2018, developing quality solutions in JS, TS, PHP, and Python.",
+    icon: CgWorkAlt,
+    date: "2018 - present",
   },
   {
     title: "BSCS",

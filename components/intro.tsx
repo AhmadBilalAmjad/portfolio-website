@@ -64,8 +64,8 @@ export default function Intro() {
       >
         Hey, <span className="font-bold">I'm Ahmad Bilal Amjad,</span> a{" "}
         <span className="font-bold">seasoned full-stack developer</span> with{" "}
-        <span className="font-bold">5+ years</span> in crafting top-notch sites and apps.
-        My focus is <span className="font-bold">React (Next JS)</span>.
+        <span className="font-bold">6+ years</span> in crafting top-notch sites and apps.
+        My focus is <span className="font-bold">React (Next JS) & Django</span>.
         <div className="underline italic mt-3">Let's elevate your digital presence!</div>
       </motion.h1>
 
